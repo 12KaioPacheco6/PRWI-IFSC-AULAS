@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Programação web com PHP </title>
+ <link rel="stylesheet" href="../css/formata-pagina.css">
+</head>
+<body>
+ <h1> Fundamentos do PHP - listaL2 - exercício 7 </h1>
+ <form method="post" action="../php/exerc7.php">
+  <fieldset>
+   <legend> Dados de Pagamento </legend>
+
+   <label class="alinha"> Forneça o valor inicial da compra:  </label>
+   <input class="tamanho" type="number" name="valor-compra" autofocus min="0" step="0.01"> <br>
+
+   <label> O cliente pagou a compra com o cartão? </label> <br>
+   <input type="radio" name="forma-pagamento" value="sim" > <label> Sim, pago com cartão </label> <br>
+   <input type="radio" name="forma-pagamento" value="nao "> <label> Não, pago com cartão </label> <br> <br> 
+   
+   <label> O cliente solicitou a entrega a domicílio?</label> <br>
+   <input type="radio" name="forma-entrega" value="sim" > <label> Sim, para entregar em domicílio </label> <br>
+   <input type="radio" name="forma-entrega" value="nao"> <label> Não, não solicitou entrega em domicílio </label> <br> <br> 
+
+
+   <button> Processar Informações </button>
+  </fieldset>
+ </form> 
+</body>
+</html>

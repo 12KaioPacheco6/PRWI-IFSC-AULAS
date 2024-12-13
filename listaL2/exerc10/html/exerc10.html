@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Programação web com PHP </title>
+ <link rel="stylesheet" href="../css/formata-pagina.css">
+</head>
+<body>
+ <h1> Fundamentos do PHP - listaL2 - exercício 7 </h1>
+ <form method="post" action="../php/exerc10.php">
+  <fieldset>
+   <legend> Farmácias de Rede AAA - Processamentos de Vendas</legend>
+
+   <label class="alinha"> Forneça o valor inicial da compra:  </label>
+   <input class="tamanho" type="number" name="valor-compra" autofocus min="0" step="0.01"> <br>
+
+   <label> Indique a faixa etária do cliente: </label> <br>
+   <input type="radio" name="faixa-etaria" value="Menos de 55 anos" > <label> Menor que 55 anos </label> <br>
+   <input type="radio" name="faixa-etaria" value="Entre 55 e 70 anos"> <label> Entre 55 e 70 anos, inclusive</label> <br>  
+   <input type="radio" name="faixa-etaria" value="Maior que 70 anos"> <label> Maior que 70 anos </label> <br> <br>   
+
+   <input type="checkbox" name="cartao-fidelidade"> <label> Marque está opção se o cliente pagou a compra com cartão fidelidade da rede de farmácias AAA. </label>
+
+   <button> Processar Informações </button>
+  </fieldset>
+ </form> 
+</body>
+</html>

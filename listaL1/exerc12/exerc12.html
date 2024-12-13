@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Começando com JavaScript </title>
+ <link rel="stylesheet" href="formata-pagina.css">
+</head>
+
+<body>
+ <h1> Fundamentos do JavaScript - cálculo da média de um aluno </h1>
+
+ <form>
+  <fieldset>
+   <legend> Média do aluno </legend>
+
+   <label class="alinha"> Forneça o nome do aluno: </label>
+   <input type="text" autofocus id="aluno">  <br>
+
+   <label class="alinha"> Forneça a primeira nota de PRW1: </label>
+   <input type="number" id="nota1" min="0" max="10" step=".1">  <br>
+
+   <label class="alinha"> Forneça a segunda nota de PRW1: </label>
+   <input type="number" id="nota2" min="0" max="10" step=".1">  <br>
+
+   <label class="alinha"> Forneça a terceira nota de PRW1: </label>
+   <input type="number" id="nota3" min="0" max="10" step=".1">  <br>
+  
+   <button type="button" id="botao"> Calcular média do aluno </button>
+  </fieldset>
+ </form>
+
+ <div id="conteiner" hidden></div>
+
+ <script src="exerc12.js"></script>
+</body>
+</html>

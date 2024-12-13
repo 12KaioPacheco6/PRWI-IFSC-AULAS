@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Programação web com PHP </title>
+ <link rel="stylesheet" href="../css/formata-pagina.css">
+</head>
+<body>
+ <h1> Fundamentos do PHP - listaL2 - exercício 1 </h1>
+ <form method="post" action="../php/exerc1.php">
+  <fieldset>
+   <legend> Rendimento acadêmico dos alunos do CTDS-PRW1 </legend>
+   
+   <label class="alinha"> Forneça o nome do aluno: </label>
+   <input type="text" name="nome-aluno" autofocus> <br>
+
+   <label class="alinha"> Forneça a primeira nota de PRW1:  </label>
+   <input type="number" min="0" max="10" step="0.1" name="nota1"> <br>
+
+   <label class="alinha"> Forneça o peso da primeira nota: </label>
+   <input type="number" min="0" max="10" name="peso1"> <br>
+
+   <label class="alinha"> Forneça a segunda nota de PRW1: </label>
+   <input type="number" min="0" max="10" step="0.1" name="nota2"> <br>
+
+   <label class="alinha"> Forneça o peso da segunda nota: </label>
+   <input type="number" min="0" max="10" name="peso2"> <br>
+
+   <button> Calcular média </button>
+  </fieldset>
+ </form> 
+</body>
+</html>

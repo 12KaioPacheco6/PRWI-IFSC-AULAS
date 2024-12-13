@@ -1,0 +1,1 @@
+alert("Este pop-up está sendo chamado na seção <head> do documento. Por isso, o navegador não mostrará o restante da página enquanto ele não for fechado.");

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bungee&display=swap');
+
+body 
+{
+    font-family: "Agdasima";
+    margin: 0 ;
+    background-image: url(https://images.pexels.com/photos/695971/pexels-photo-695971.jpeg?cs=srgb&dl=pexels-ifreestock-695971.jpg&fm=jpg) ;
+    background-size: 100%;
+    font-weight: bold;
+}
+
+h1 
+{
+    font-family: "Bungee";
+    margin: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid rgba(255, 0, 0, 0.911);
+    background-image: url(https://cdn.pixabay.com/photo/2021/10/09/12/28/christmas-6693983_960_720.png);
+    background-size: 10%;
+    box-shadow: 5px 5px 15px rgba(226, 132, 8, 0.8);
+    color: rgb(71, 32, 32);
+}
+
+fieldset 
+{
+    width: 85%;
+    margin: auto; /*margem dentro do fildset, ou seja, a distancia entre cada elemento*/
+    background-color: rgba(238, 217, 217, 0.8) ;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 15px 5px;
+    box-shadow: 5px 10px 2px rgba(134, 36, 36, 0.678);
+}
+
+label.alinha 
+{
+    display: inline-block;
+    width: 250px;
+    margin: 0;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+input [name="forma-pagamento"]
+{
+    text-align: 50px;
+    width: 100px;
+}
+
+input [name="forma-entrega"]
+{
+    text-align: 20px;
+    width: 100px;
+}
+
+button 
+{
+    width: 300px;
+    height: 30px;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 15px 5px;
+    margin: auto;
+
+}
+
+p
+{
+    background-color: rgb(224, 101, 101) ;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+}
+
+legend
+{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgba(206, 240, 240, 0.7);
+    border-radius: 5px 2px 7px ;
+    font-size: 25px;
+}
+
+span 
+{
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: #E2F1E7;
+    color: rgb(59, 36, 36);
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+
+}
+
+input.tamanho {
+    width: 150px;
+}

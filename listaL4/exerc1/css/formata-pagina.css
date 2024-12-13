@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sour+Gummy&display=swap');
+body 
+{
+    font-family: "Sour Gummy";
+    margin: 0 ;
+    background-image: url(https://images.vexels.com/media/users/3/301721/raw/10b31e3ad2df510ee525faa73a55495f-design-de-padr-o-de-material-escolar-de-quadro-negro.jpg) ;
+    background-size: 100%;
+    font-weight: bold;
+}
+
+h1 
+{
+    font-family: "Dansing Script";
+    margin: 0;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid rgba(0, 238, 255, 0.562);
+    background-image: url(https://st2.depositphotos.com/4018617/5965/v/450/depositphotos_59654051-stock-illustration-seamless-pattern-with-school-icons.jpg);
+    background-size: 10%;
+    box-shadow: 5px 5px 15px rgb(55, 99, 114);
+    color: rgb(54, 24, 24);
+}
+
+fieldset 
+{
+    width: 85%;
+    margin: auto; /*margem dentro do fildset, ou seja, a distancia entre cada elemento*/
+    background-color: rgba(187, 223, 199, 0.89) ;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 15px 5px;
+    box-shadow: 5px 5px 2px rgba(252, 239, 121, 0.329);
+}
+
+label.alinha 
+{
+    display: inline-block;
+    width: 350px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+/*note abaixo, o uso do seletor de atributo. Se colocarmos um asteristico após o nome, isso indica ao navegador para aplicar as propriedades css a toda tag cujo o atributo name COMEÇA com a palavra aluno, não importa o que vem depois*/
+input [name*="aluno"]
+{
+    text-align: 50px;
+    width: 250px;
+}
+
+button 
+{
+    width: 350px;
+    height: 50px;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    border-radius: 15px 5px;
+    margin: auto;
+    font-family: "Sour Gummy";
+}
+
+p
+{
+    background-color: rgba(211, 230, 214, 0.856) ;
+    color: black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+legend
+{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgba(206, 240, 240, 0.9);
+    border-radius: 5px 2px 7px ;
+    font-size: 25px;
+}
+
+span 
+{
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: #568b68;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+input.tamanho {
+    width: 250px;
+    height: 15px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+pre {
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 5px;
+    margin: center;
+}
+
+table {
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 7px rgba(231, 211, 127, 0.5);
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 2px;
+}
+
+tr, td {
+    border: 1px solid rgba(7, 66, 31, 0.4);
+    text-align: center;
+}
+
+th {
+    background-color: rgba(221, 247, 227, 0.7);
+}
+
+caption {
+    background-color:  rgba(221, 247, 227, 0.8);
+    margin-bottom: 10px;
+    border-bottom: 1px solid  rgba(206, 240, 208);
+    border-radius: 2px;
+}
+
+

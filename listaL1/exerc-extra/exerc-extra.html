@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Começando com JavaScript </title>
+ <link rel="stylesheet" href="formata-pagina.css">
+</head>
+
+<body>
+ <h1> Fundamentos do JavaScript - manipulação de números </h1>
+
+ <form>
+  <fieldset>
+   <legend> CUIDADO COM A + EM JAVASCRIPT </legend>
+
+   <label class="alinha"> Forneça a idade da pessoa: </label>
+   <input type="number" step="1" id="idade"> <br>
+
+   <label class="alinha"> Forneça o saldo bancário da pessoa: </label>
+   <input type="number" min="0" step="0.01" id="saldo"> <br>
+  
+   <button type="button" id="botao"> Somar idade e saldo </button>
+  </fieldset>
+ </form>
+
+ <div id="conteiner" hidden></div>
+
+ <script src="exerc-extra.js"></script>
+</body>
+</html>
