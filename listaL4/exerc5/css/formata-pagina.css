@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+
+body {
+ font-family: Agdasima;
+ margin: 0;
+}
+
+h1 {
+ margin: 0;
+ text-align: center;
+ margin-bottom: 40px;
+ border-bottom: 1px solid #6A9C89;
+ background-color: #16423C;
+ color: white;
+}
+
+fieldset {
+ width: 600px;
+ margin: auto;
+ padding-top: 25px;
+ padding-left: 30px;
+ background-color: rgba(233, 239, 236, 0.7); 
+ border-radius: 10px;
+ box-shadow: 5px 5px 5px rgb(22, 66, 60);
+ margin-bottom: 25px;
+}
+
+label.alinha {
+ display: inline-block;
+ width: 250px;
+ text-align: right;
+ margin-bottom: 10px;
+}
+
+/*note, abaixo, o uso do seletor de atributo. Se colocarmos um asterisco após o name, isso indica ao navegador para aplicar as propriedades css a toda tag cujo atributo name COMEÇA com a palavra aluno, não importando o que vem depois*/
+input[name*="aluno"] {
+ width: 250px;
+}
+
+button {
+ width: 300px;
+ height: 40px;
+ font-weight: bold;
+ color: #16423C;
+ font-size: 16px;
+ margin: auto;
+ display: block;
+ margin-top: 10px;
+ font-family: Agdasima;
+}
+
+p {
+ border-bottom: 1px solid #6A9C89;
+ background-color: #16423C;
+ color: white;
+ text-align: center;
+ width: 50%;
+ margin: 30px auto;
+}
+
+input[name="nota1"], input[name="nota2"], input[name="nota3"],input[name="peso1"], input[name="peso2"]
+ {
+  width: 100px;
+ }
+
+span {
+ font-weight: bold;
+}
+
+table {
+ width: 50%;
+ height: 300px;
+ margin: auto;
+ border: 1px solid #7AB2D3;
+ box-shadow: 5px 5px 5px rgba(223, 242, 235, 0.7);
+ font-size: 18px;
+}
+
+td, th {
+ border: 1px solid #7AB2D3;
+}
+
+th {
+ background-color: #7AB2D3;
+ color: #fff;
+}
+
+td {
+ text-align: center;
+}
+
+caption {
+ border-bottom: 1px solid #7AB2D3;
+ margin-bottom: 10px;
+ background: rgba(223, 242, 235, 0.5);
+}
